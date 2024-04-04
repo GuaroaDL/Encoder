@@ -22,11 +22,11 @@ body {
     font-size: 20px;
     padding: 10px;
     height: 55px;
-    background-color: #2D3250;
+    background-color: #E5E5E5;
 }
 .contenedor main {
     height: 100vh;
-    background-color: #2D3250;
+    background-color: #E5E5E5;
 }
 .contenedor-campos{
     display: flex;
@@ -38,7 +38,7 @@ body {
     color: #F6B17A; 
 }
 .input-text textarea{
-    background-color: #2D3250;
+    background-color: #E5E5E5;
     border: none;
     padding: 10px;
     outline: 0 none;
@@ -58,10 +58,15 @@ body {
     margin-top: 7.45rem;
     height: 54rem;
     width: 30rem;
-    border-radius: 10px;
+    border-radius: 25px;
     -webkit-box-shadow: -1px 6px 20px 3px rgba(0,0,0,0.47);
     -moz-box-shadow: -1px 6px 20px 3px rgba(0,0,0,0.47);
     box-shadow: -1px 6px 20px 3px rgba(0,0,0,0.47);
+}
+.out-text img{
+    margin-top: 150px;
+    height: 389px;
+    width: 338px;
 }
 .out-text p{
     color: #2D3250;
@@ -70,7 +75,9 @@ body {
     padding: 15px;
     height: 48.55rem;
     width: 30rem;
-    text-align: left;  
+    text-align: center;
+    word-wrap: break-word;  
+
 } 
 .out-text button:hover{
     color: #2D3250;
@@ -89,6 +96,7 @@ body {
     font-weight: 100;
     height: 40px;
     width: 20rem;
+    display: none;
 }
 .reglas{
     display: flex;
@@ -151,7 +159,11 @@ height: 50rem;
  .out-text p{
     height: 25rem;
  }
-
+ .out-text img{
+    margin-top: 3rem;
+    height: 24rem;
+    width: 20rem;
+ }
  .out-text{
     margin-top: 0px;
     width: 360px;
