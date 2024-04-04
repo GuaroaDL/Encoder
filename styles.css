@@ -100,8 +100,8 @@ body {
 }
 .reglas{
     display: flex;
-    align-content: space-between;
-    font-size: 10px;
+    gap: 8px;
+    margin-bottom: 16px;
     /* margin-bottom: 3px; */
 }
 
