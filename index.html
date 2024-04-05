@@ -5,8 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Encriptador/Descencriptador de Texto</title>
   <link rel="stylesheet" href="./reset.css">
-  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
   <script src="./app.js"></script>
 </head>
 <body>
@@ -17,22 +18,24 @@
     </header>
    
     <main>
-   <!--                                   Input text                                             -->
+          <!--                                   Input text                                             -->
       <section class="contenedor-campos">
         <div class="input-text" id="campos">
           <textarea id="texto" placeholder="Texto a Encriptar/Descencriptar:"></textarea>
         </div>
-        <div class="out-text" id="campos"> 
- <!--                                                                                            -->
-  <!--                                     Results                                               -->
-          <p id="resultado">Aun no hay resultados</p> 
-          <button class="copia" onclick="copiarResultado()">Copiar Resultado</button>
+     
+                <!--                                                                                            -->
+                  <!--                                     Results                                               -->
+        <div class="out-text" id="campos">
+          <img src="/Frame 10.png" alt="imagen1" id="imga">
+          <p id="resultado">Ingresa el texto que desees encriptar o desencriptar.</p> 
+          <button id="bt" class="copia" style="display: none;" onclick="copiarResultado()">Copiar Resultado</button>
         </div>                
       </section>
       
       <section class="reglas">
+        <img src="/exclamation.svg" alt="alert_read">        
         <p> 
-          <span class="material-icons">info</span>
           No son aceptadas letras en mayúsculas, ni caracteres especiales
         </p>
       </section>
@@ -40,7 +43,7 @@
       <div class="bts">
         <button onclick="encriptar()">Encriptar</button>
         <button onclick="descencriptar()">Descencriptar</button>  
-      </div>
+      </div> 
     </main>
   </div>
   
